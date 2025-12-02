@@ -57,7 +57,7 @@ function KeyPadComponent() {
             {/* Task 2: Show Me button */}
             <div>
                 <Button label="show me" ClickHandle={() => {
-                    window.open("logo.svg"); 
+                    window.open(process.env.PUBLIC_URL + "/calculator.jpg", "_blank");
                 }} />
             </div>
 
