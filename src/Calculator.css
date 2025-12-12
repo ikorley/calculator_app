@@ -43,3 +43,30 @@ body {
   text-align: left;
   font-size: 20px;
   }
+
+
+.extra-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.extra-buttons .ButtonStyle {
+  width: 120px;      
+  height: 60px;     
+  font-size: 20px;
+}
+
+.extra-buttons {
+  display: flex;
+  gap: 9.5px;       /* space between the two buttons */
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.extra-btn {
+  width: 110px;    /* double the normal width */
+  height: 60px;    /* same height as calculator buttons */
+  font-size: 20px;
+  white-space: nowrap; 
+}

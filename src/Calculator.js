@@ -55,15 +55,13 @@ function KeyPadComponent() {
             </div>
 
             {/* Task 2: Show Me button */}
-            <div>
+            <div className="extra-buttons">
                 <Button label="show me" ClickHandle={() => {
-                    window.open(process.env.PUBLIC_URL + "/calculator.jpg", "_blank");
+                     window.open(process.env.PUBLIC_URL + "/calculator.jpg", "_blank");
                 }} />
-            </div>
 
             {/* Task 3: Square button */}
-            <div>
-                <Button label="square" ClickHandle={() => {
+                <Button label="square"  ClickHandle={() => {
                     if (!isNaN(text1)) {
                         const squared = Math.pow(Number(text1), 2);
                         setText(squared);
